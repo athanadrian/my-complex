@@ -1,5 +1,6 @@
 import React from 'react'
 import { Tag } from '../../ui/misc';
+import Blocks from './Blocks';
 
 const FeesHome = () => {
     return (
@@ -13,7 +14,7 @@ const FeesHome = () => {
                     Fees
                 </Tag>
 
-                BLOCK
+                <Blocks/>
 
                 <Tag
                     bck='#ffffff'
