@@ -21,6 +21,13 @@ export default class Blocks extends Component {
                 fees:reverseArray(fees)
             })
         })
+        firebaseResidences.limitToLast(6).once('value').then((snapshot)=>{
+            const residences = firebaseLooper(snapshot);
+            
+            this.setState({
+                residences:reverseArray(residences)
+            })
+        })
     }
   
     showFees = (fees) => (

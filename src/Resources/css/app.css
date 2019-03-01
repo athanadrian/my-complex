@@ -650,17 +650,17 @@ footer .footer_discl {
     background-size: contain !important;
 }
 
-.promotion_wrapper .enroll_wrapper {
+.promotion_wrapper .newsletter_wrapper {
     text-align: center;
 }
 
-.promotion_wrapper .enroll_title {
+.promotion_wrapper .newsletter_title {
     font-family: 'Righteous', cursive;
     font-size: 26px;
     color: #4e4e4e;
 }
 
-.promotion_wrapper .enroll_discl {
+.promotion_wrapper .newsletter_discl {
     font-weight: 300;
     font-size: 12px;
     width: 271px;
@@ -668,7 +668,7 @@ footer .footer_discl {
     padding: 10px 0px;
 }
 
-.promotion_wrapper .enroll_input {
+.promotion_wrapper .newsletter_input {
     width: 330px;
     margin: 0 auto;
     padding: 10px 0px;
@@ -726,6 +726,13 @@ footer .footer_discl {
     min-height: 100vh;
     background: #282828;
     border-right: 2px solid #01285e;
+}
+
+.admin_left_nav_item {
+    color:#ffffff;
+    font-weight: 300;
+    border-bottom: 1px solid #353535;
+    cursor: pointer;
 }
 
 .admin_container  .admin_right {
