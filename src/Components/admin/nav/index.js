@@ -19,8 +19,12 @@ const AdminNav = () => {
             linkto: 'admin_residences'
         },
         {
-            title: 'Add residence',
-            linkto: 'admin_residences/edit_residence'
+            title: 'Residents',
+            linkto: 'admin_residents'
+        },
+        {
+            title: 'Add resident',
+            linkto: 'admin_residences/edit_resident'
         },
     ]
 

@@ -47,7 +47,8 @@ export default class Fees extends Component {
                                     <TableCell>Pool</TableCell>
                                     <TableCell>Extra</TableCell>
                                     <TableCell>Total</TableCell>
-                                    <TableCell>Date</TableCell>
+                                    <TableCell>Issued</TableCell>
+                                    <TableCell>Updated</TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
@@ -66,6 +67,7 @@ export default class Fees extends Component {
                                             <TableCell>{fee.extra}</TableCell>
                                             <TableCell>{calculateTotalFee(fee)}</TableCell>
                                             <TableCell>{fee.processedDate}</TableCell>
+                                            <TableCell>{fee.updatedDate ? fee.updatedDate : <p style={{color:'red'}}>N/A</p>}</TableCell>
                                         </TableRow>
                                     ))
                                     : null

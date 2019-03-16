@@ -760,27 +760,39 @@ footer .footer_discl {
     font-size: 40px;
 }
 
-.editmatch_dialog_wrapper,
-.editplayers_dialog_wrapper {
+.editfee_dialog_wrapper,
+.editplayers_dialog_wrapper,
+.editresidences_dialog_wrapper,
+.editresidents_dialog_wrapper {
     padding: 20px;
     width: 480px;
 }
 
- 
-.select_team_layout .wrapper{
+.select_month_layout .wrapper{
     display: flex;
 }
 
-.select_team_layout .wrapper .left {
+.select_month_layout .wrapper .left {
     flex-grow: 1;
 }
 
-.select_team_layout input[name=result_local_input],
-.select_team_layout input[name=result_away_input] {
-    width: 60px;
+.select_month_layout .wrapper .right {
+    flex-grow: 1;
+    padding-left: 5px;
+}
+
+.select_month_layout input[name=sewage_input],
+.select_month_layout input[name=electric_input],
+.select_month_layout input[name=water_input],
+.select_month_layout input[name=pool_input],
+.select_month_layout input[name=garden_input],
+.select_month_layout input[name=extra_input]{
+    width: 100px;
     text-align: center;
     background: #98c6e9;
     color: #ffffff;
+    margin-top: 10px;
+    height: 45px;
 }
 
 .admin_submit button {

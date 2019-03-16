@@ -47,12 +47,12 @@ export const reverseArray = (actualArray) => {
 
 export const calculateTotalFee = (fee) => {
     let feeTotal = 0;
-    feeTotal=   fee.electric +
-                fee.garden + 
-                fee.pool + 
-                fee.sewage + 
-                fee.water +
-                fee.extra;
+    feeTotal=   +fee.electric +
+                +fee.garden + 
+                +fee.pool + 
+                +fee.sewage + 
+                +fee.water +
+                +fee.extra;
     return feeTotal;
 }
 
